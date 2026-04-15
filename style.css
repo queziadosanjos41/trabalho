@@ -1,0 +1,23 @@
+.container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.galeria {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.galeria img {
+  width: 200px;
+  border-radius: 10px;
+}
